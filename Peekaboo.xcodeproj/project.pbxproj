@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05715671FFBE64E00DF7CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715661FFBE64E00DF7CCF /* AppDelegate.swift */; };
+		C05715691FFBE64E00DF7CCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715681FFBE64E00DF7CCF /* ViewController.swift */; };
+		C057156C1FFBE64E00DF7CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C057156A1FFBE64E00DF7CCF /* Main.storyboard */; };
+		C057156E1FFBE64E00DF7CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C057156D1FFBE64E00DF7CCF /* Assets.xcassets */; };
+		C05715711FFBE64E00DF7CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C057156F1FFBE64E00DF7CCF /* LaunchScreen.storyboard */; };
+		C057157C1FFBE64E00DF7CCF /* PeekabooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057157B1FFBE64E00DF7CCF /* PeekabooTests.swift */; };
+		C05715871FFBE64E00DF7CCF /* PeekabooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C05715781FFBE64E00DF7CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C057155B1FFBE64E00DF7CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05715621FFBE64E00DF7CCF;
+			remoteInfo = Peekaboo;
+		};
+		C05715831FFBE64E00DF7CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C057155B1FFBE64E00DF7CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05715621FFBE64E00DF7CCF;
+			remoteInfo = Peekaboo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C05715631FFBE64E00DF7CCF /* Peekaboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peekaboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05715661FFBE64E00DF7CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C05715681FFBE64E00DF7CCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C057156B1FFBE64E00DF7CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C057156D1FFBE64E00DF7CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05715701FFBE64E00DF7CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05715721FFBE64E00DF7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05715771FFBE64E00DF7CCF /* PeekabooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekabooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057157B1FFBE64E00DF7CCF /* PeekabooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekabooTests.swift; sourceTree = "<group>"; };
+		C057157D1FFBE64E00DF7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05715821FFBE64E00DF7CCF /* PeekabooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekabooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekabooUITests.swift; sourceTree = "<group>"; };
+		C05715881FFBE64E00DF7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05715601FFBE64E00DF7CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05715741FFBE64E00DF7CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057157F1FFBE64E00DF7CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C057155A1FFBE64D00DF7CCF = {
+			isa = PBXGroup;
+			children = (
+				C05715651FFBE64E00DF7CCF /* Peekaboo */,
+				C057157A1FFBE64E00DF7CCF /* PeekabooTests */,
+				C05715851FFBE64E00DF7CCF /* PeekabooUITests */,
+				C05715641FFBE64E00DF7CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05715641FFBE64E00DF7CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05715631FFBE64E00DF7CCF /* Peekaboo.app */,
+				C05715771FFBE64E00DF7CCF /* PeekabooTests.xctest */,
+				C05715821FFBE64E00DF7CCF /* PeekabooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05715651FFBE64E00DF7CCF /* Peekaboo */ = {
+			isa = PBXGroup;
+			children = (
+				C05715661FFBE64E00DF7CCF /* AppDelegate.swift */,
+				C05715681FFBE64E00DF7CCF /* ViewController.swift */,
+				C057156A1FFBE64E00DF7CCF /* Main.storyboard */,
+				C057156D1FFBE64E00DF7CCF /* Assets.xcassets */,
+				C057156F1FFBE64E00DF7CCF /* LaunchScreen.storyboard */,
+				C05715721FFBE64E00DF7CCF /* Info.plist */,
+			);
+			path = Peekaboo;
+			sourceTree = "<group>";
+		};
+		C057157A1FFBE64E00DF7CCF /* PeekabooTests */ = {
+			isa = PBXGroup;
+			children = (
+				C057157B1FFBE64E00DF7CCF /* PeekabooTests.swift */,
+				C057157D1FFBE64E00DF7CCF /* Info.plist */,
+			);
+			path = PeekabooTests;
+			sourceTree = "<group>";
+		};
+		C05715851FFBE64E00DF7CCF /* PeekabooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */,
+				C05715881FFBE64E00DF7CCF /* Info.plist */,
+			);
+			path = PeekabooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05715621FFBE64E00DF7CCF /* Peekaboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C057158B1FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "Peekaboo" */;
+			buildPhases = (
+				C057155F1FFBE64E00DF7CCF /* Sources */,
+				C05715601FFBE64E00DF7CCF /* Frameworks */,
+				C05715611FFBE64E00DF7CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peekaboo;
+			productName = Peekaboo;
+			productReference = C05715631FFBE64E00DF7CCF /* Peekaboo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05715761FFBE64E00DF7CCF /* PeekabooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C057158E1FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "PeekabooTests" */;
+			buildPhases = (
+				C05715731FFBE64E00DF7CCF /* Sources */,
+				C05715741FFBE64E00DF7CCF /* Frameworks */,
+				C05715751FFBE64E00DF7CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05715791FFBE64E00DF7CCF /* PBXTargetDependency */,
+			);
+			name = PeekabooTests;
+			productName = PeekabooTests;
+			productReference = C05715771FFBE64E00DF7CCF /* PeekabooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05715811FFBE64E00DF7CCF /* PeekabooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05715911FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "PeekabooUITests" */;
+			buildPhases = (
+				C057157E1FFBE64E00DF7CCF /* Sources */,
+				C057157F1FFBE64E00DF7CCF /* Frameworks */,
+				C05715801FFBE64E00DF7CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05715841FFBE64E00DF7CCF /* PBXTargetDependency */,
+			);
+			name = PeekabooUITests;
+			productName = PeekabooUITests;
+			productReference = C05715821FFBE64E00DF7CCF /* PeekabooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C057155B1FFBE64E00DF7CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ehud Adler";
+				TargetAttributes = {
+					C05715621FFBE64E00DF7CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C05715761FFBE64E00DF7CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C05715621FFBE64E00DF7CCF;
+					};
+					C05715811FFBE64E00DF7CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C05715621FFBE64E00DF7CCF;
+					};
+				};
+			};
+			buildConfigurationList = C057155E1FFBE64E00DF7CCF /* Build configuration list for PBXProject "Peekaboo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C057155A1FFBE64D00DF7CCF;
+			productRefGroup = C05715641FFBE64E00DF7CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05715621FFBE64E00DF7CCF /* Peekaboo */,
+				C05715761FFBE64E00DF7CCF /* PeekabooTests */,
+				C05715811FFBE64E00DF7CCF /* PeekabooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05715611FFBE64E00DF7CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05715711FFBE64E00DF7CCF /* LaunchScreen.storyboard in Resources */,
+				C057156E1FFBE64E00DF7CCF /* Assets.xcassets in Resources */,
+				C057156C1FFBE64E00DF7CCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05715751FFBE64E00DF7CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05715801FFBE64E00DF7CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C057155F1FFBE64E00DF7CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05715691FFBE64E00DF7CCF /* ViewController.swift in Sources */,
+				C05715671FFBE64E00DF7CCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05715731FFBE64E00DF7CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C057157C1FFBE64E00DF7CCF /* PeekabooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057157E1FFBE64E00DF7CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05715871FFBE64E00DF7CCF /* PeekabooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C05715791FFBE64E00DF7CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05715621FFBE64E00DF7CCF /* Peekaboo */;
+			targetProxy = C05715781FFBE64E00DF7CCF /* PBXContainerItemProxy */;
+		};
+		C05715841FFBE64E00DF7CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05715621FFBE64E00DF7CCF /* Peekaboo */;
+			targetProxy = C05715831FFBE64E00DF7CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C057156A1FFBE64E00DF7CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C057156B1FFBE64E00DF7CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C057156F1FFBE64E00DF7CCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05715701FFBE64E00DF7CCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05715891FFBE64E00DF7CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C057158A1FFBE64E00DF7CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C057158C1FFBE64E00DF7CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Peekaboo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.Peekaboo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C057158D1FFBE64E00DF7CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Peekaboo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.Peekaboo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C057158F1FFBE64E00DF7CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeekabooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.PeekabooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peekaboo.app/Peekaboo";
+			};
+			name = Debug;
+		};
+		C05715901FFBE64E00DF7CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeekabooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.PeekabooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peekaboo.app/Peekaboo";
+			};
+			name = Release;
+		};
+		C05715921FFBE64E00DF7CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeekabooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.PeekabooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Peekaboo;
+			};
+			name = Debug;
+		};
+		C05715931FFBE64E00DF7CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeekabooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.PeekabooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Peekaboo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C057155E1FFBE64E00DF7CCF /* Build configuration list for PBXProject "Peekaboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05715891FFBE64E00DF7CCF /* Debug */,
+				C057158A1FFBE64E00DF7CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C057158B1FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "Peekaboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057158C1FFBE64E00DF7CCF /* Debug */,
+				C057158D1FFBE64E00DF7CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C057158E1FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "PeekabooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057158F1FFBE64E00DF7CCF /* Debug */,
+				C05715901FFBE64E00DF7CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05715911FFBE64E00DF7CCF /* Build configuration list for PBXNativeTarget "PeekabooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05715921FFBE64E00DF7CCF /* Debug */,
+				C05715931FFBE64E00DF7CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C057155B1FFBE64E00DF7CCF /* Project object */;
+}
