@@ -14,6 +14,8 @@
 		C05715711FFBE64E00DF7CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C057156F1FFBE64E00DF7CCF /* LaunchScreen.storyboard */; };
 		C057157C1FFBE64E00DF7CCF /* PeekabooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057157B1FFBE64E00DF7CCF /* PeekabooTests.swift */; };
 		C05715871FFBE64E00DF7CCF /* PeekabooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */; };
+		C05715951FFBE65B00DF7CCF /* Peekboo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715941FFBE65B00DF7CCF /* Peekboo.swift */; };
+		C057159A1FFBE6F800DF7CCF /* Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = C05715991FFBE6F800DF7CCF /* Banner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C05715821FFBE64E00DF7CCF /* PeekabooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekabooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekabooUITests.swift; sourceTree = "<group>"; };
 		C05715881FFBE64E00DF7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05715941FFBE65B00DF7CCF /* Peekboo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peekboo.swift; sourceTree = "<group>"; };
+		C05715991FFBE6F800DF7CCF /* Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		C05715651FFBE64E00DF7CCF /* Peekaboo */ = {
 			isa = PBXGroup;
 			children = (
+				C05715961FFBE6A900DF7CCF /* Images */,
 				C05715661FFBE64E00DF7CCF /* AppDelegate.swift */,
 				C05715681FFBE64E00DF7CCF /* ViewController.swift */,
+				C05715941FFBE65B00DF7CCF /* Peekboo.swift */,
 				C057156A1FFBE64E00DF7CCF /* Main.storyboard */,
 				C057156D1FFBE64E00DF7CCF /* Assets.xcassets */,
 				C057156F1FFBE64E00DF7CCF /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				C05715881FFBE64E00DF7CCF /* Info.plist */,
 			);
 			path = PeekabooUITests;
+			sourceTree = "<group>";
+		};
+		C05715961FFBE6A900DF7CCF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C05715991FFBE6F800DF7CCF /* Banner.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05715711FFBE64E00DF7CCF /* LaunchScreen.storyboard in Resources */,
+				C057159A1FFBE6F800DF7CCF /* Banner.png in Resources */,
 				C057156E1FFBE64E00DF7CCF /* Assets.xcassets in Resources */,
 				C057156C1FFBE64E00DF7CCF /* Main.storyboard in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05715691FFBE64E00DF7CCF /* ViewController.swift in Sources */,
+				C05715951FFBE65B00DF7CCF /* Peekboo.swift in Sources */,
 				C05715671FFBE64E00DF7CCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
 				INFOPLIST_FILE = Peekaboo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.Peekaboo;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
 				INFOPLIST_FILE = Peekaboo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.Peekaboo;
