@@ -2,9 +2,7 @@
 ![Logo](Peekaboo/Images/Banner.png)
 
 ## Overview
-
-
-
+![Logo](Peekaboo/Images/sampleProject.gif)
 
 ## Requirements
 * Xcode 9+
@@ -13,7 +11,7 @@
 ## Usage
 
 ### Storyboard
-
+![Logo](Peekaboo/Images/storyboardImp.gif)
 
 ### Code
 ```
