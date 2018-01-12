@@ -7,19 +7,16 @@
 //
 
 import UIKit
+import Peekaboo
 
 class ViewController: UIViewController {
+    let peekingView = Peekboo()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.view.addSubview(peekingView) // Alignment is done for you
     }
-
 
 }
 

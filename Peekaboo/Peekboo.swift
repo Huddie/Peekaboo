@@ -40,6 +40,13 @@ import UIKit
             self.setNeedsLayout()
         }
     }
+  
+    @IBInspectable public var viewColor : UIColor = UIColor.white {
+      didSet {
+        self.contentView.backgroundColor = viewColor
+        self.setNeedsLayout()
+      }
+    }
     
 /* ************ End Inspectables *********** */
     

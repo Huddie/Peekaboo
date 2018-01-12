@@ -16,6 +16,8 @@
 		C05715871FFBE64E00DF7CCF /* PeekabooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715861FFBE64E00DF7CCF /* PeekabooUITests.swift */; };
 		C05715951FFBE65B00DF7CCF /* Peekboo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05715941FFBE65B00DF7CCF /* Peekboo.swift */; };
 		C057159A1FFBE6F800DF7CCF /* Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = C05715991FFBE6F800DF7CCF /* Banner.png */; };
+		C093404E2008E5CB0045A559 /* sampleProject.gif in Resources */ = {isa = PBXBuildFile; fileRef = C093404D2008E5CB0045A559 /* sampleProject.gif */; };
+		C09340502008E68B0045A559 /* stoaryboardImp.gif in Resources */ = {isa = PBXBuildFile; fileRef = C093404F2008E68B0045A559 /* stoaryboardImp.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C05715881FFBE64E00DF7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05715941FFBE65B00DF7CCF /* Peekboo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peekboo.swift; sourceTree = "<group>"; };
 		C05715991FFBE6F800DF7CCF /* Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner.png; sourceTree = "<group>"; };
+		C093404D2008E5CB0045A559 /* sampleProject.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sampleProject.gif; sourceTree = "<group>"; };
+		C093404F2008E68B0045A559 /* stoaryboardImp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stoaryboardImp.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 		C05715961FFBE6A900DF7CCF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C093404F2008E68B0045A559 /* stoaryboardImp.gif */,
+				C093404D2008E5CB0045A559 /* sampleProject.gif */,
 				C05715991FFBE6F800DF7CCF /* Banner.png */,
 			);
 			path = Images;
@@ -248,6 +254,8 @@
 			files = (
 				C05715711FFBE64E00DF7CCF /* LaunchScreen.storyboard in Resources */,
 				C057159A1FFBE6F800DF7CCF /* Banner.png in Resources */,
+				C09340502008E68B0045A559 /* stoaryboardImp.gif in Resources */,
+				C093404E2008E5CB0045A559 /* sampleProject.gif in Resources */,
 				C057156E1FFBE64E00DF7CCF /* Assets.xcassets in Resources */,
 				C057156C1FFBE64E00DF7CCF /* Main.storyboard in Resources */,
 			);
